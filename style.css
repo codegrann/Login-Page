@@ -1,0 +1,65 @@
+body {
+    background: -webkit-linear-gradient(bottom, black, rgb(14, 14, 90));
+    /* background-color: black; */
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+div {
+    max-width: 400px;
+    max-height: 450px;
+    border: none;
+    border-radius: 1.5rem;
+    margin: auto;
+    margin-top: 6rem;
+    padding-top: 1.75rem;
+    padding-bottom: 2.75rem;
+    background: -webkit-linear-gradient(bottom, rgb(92, 10, 10), black);
+    box-shadow: 2px 2px 10px rgb(57, 122, 207), -2px -2px 10px rgb(57, 122, 207);
+}
+
+label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+
+input {
+    /* margin: auto; */
+    background-color: rgb(182, 137, 137);
+    border: none;
+    min-width: 10rem;
+    min-height: 2rem;
+    border-radius: 0.7em;
+    padding-left: 0.8rem;
+}
+
+label p {
+    /* float: right; */
+    display: inline;
+    font-size: 10pt;
+}
+
+form a {
+    color: rgb(0, 47, 255);
+}
+
+button {
+    margin-left: 0.95rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.9rem;
+    background-color: rgb(8, 238, 8);
+    color: rgb(10, 10, 10);
+    letter-spacing: 0.1rem;
+    font-family: sans-serif, Geneva, Tahoma, Verdana;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+}
