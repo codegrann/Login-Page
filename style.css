@@ -1,5 +1,7 @@
 body {
-    background: -webkit-linear-gradient(bottom, black, rgb(14, 14, 90));
+    /* background: -webkit-linear-gradient(bottom, rgb(21, 30, 59), rgb(115, 115, 196)); */
+    background: -webkit-linear-gradient(bottom, rgb(84, 179, 235), rgb(40, 119, 172));
+    /* opacity: 0.5; */
     /* background-color: black; */
     margin: 0;
     width: 100vw;
@@ -17,14 +19,16 @@ div {
     margin-top: 6rem;
     padding-top: 1.75rem;
     padding-bottom: 2.75rem;
-    background: -webkit-linear-gradient(bottom, rgb(92, 10, 10), black);
-    box-shadow: 2px 2px 10px rgb(57, 122, 207), -2px -2px 10px rgb(57, 122, 207);
+    background: -webkit-linear-gradient(bottom, rgb(12, 137, 209), rgb(31, 82, 116));
+    box-shadow: 2px 2px 15px rgb(0, 7, 15), -2px -2px 15px rgb(0, 5, 12);
+    opacity: 1.5;
 }
 
 label {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14pt;
+    opacity: 1;
 }
 
 input {
