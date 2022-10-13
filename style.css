@@ -27,7 +27,7 @@ div {
 label {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14pt;
+    font-size: clamp(8pt,10pt,15pt);
     opacity: 1;
 }
 
@@ -41,7 +41,7 @@ input {
     padding-left: 0.8rem;
 }
 
-label p {
+label p{
     /* float: right; */
     display: inline;
     font-size: 10pt;
