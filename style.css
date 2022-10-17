@@ -67,3 +67,15 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+@media (max-width:500px){
+   body{
+    background-color: rgb(201, 18, 18);
+   }
+   form{
+    /* background-color: black; */
+    width: 80vw;
+    border: none;
+    box-shadow: none;
+   }
+}
