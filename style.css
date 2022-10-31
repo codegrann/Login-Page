@@ -38,6 +38,9 @@ div {
     50%{filter: blur(0.5rem);}
     to{filter: blur(0);}
 }
+/* h3{ */
+    /* background-color: #7aaee3; */
+/* } */
 
 label {
     color: white;
