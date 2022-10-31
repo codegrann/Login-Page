@@ -1,12 +1,14 @@
 body {
     /* background: -webkit-linear-gradient(bottom, rgb(21, 30, 59), rgb(115, 115, 196)); */
-    background: -webkit-linear-gradient(bottom, rgb(84, 179, 235), rgb(40, 119, 172));
+    background-color: rgb(73, 183, 247);
+    background-repeat: no-repeat;
     /* opacity: 0.5; */
     /* background-color: black; */
     margin: 0;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    backdrop-filter: blur(12rem);
 
 }
 
@@ -22,6 +24,19 @@ div {
     background: -webkit-linear-gradient(bottom, rgb(12, 137, 209), rgb(31, 82, 116));
     box-shadow: 2px 2px 15px rgb(0, 7, 15), -2px -2px 15px rgb(0, 5, 12);
     opacity: 1.5;
+    animation-name: filtering;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0, 0.37, 0.57, 0.61);;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+
+    
+}
+
+@keyframes filtering{
+    from{filter: blur(1rem);}
+    50%{filter: blur(0.5rem);}
+    to{filter: blur(0);}
 }
 
 label {
