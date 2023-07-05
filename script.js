@@ -7,10 +7,11 @@ let togglePassword = document.querySelector("#togglePassword");
 
 reset.addEventListener("click", submit);
 togglePassword.addEventListener("click", toggle);
-
+togglePassword.style.color="red";
+password.style.backgroundColor="red";
 function toggle(){
-
-  this.classList.toggle(".bigEye");
+  // togglePassword.style.color="blue"
+  this.classList.toggle("bigEye");
 }
 
 function submit() {
