@@ -12,7 +12,7 @@ function submit() {
   if(email2.value=='') {
     alert(`Enter a valid email`);
     return ;
-  }else if(/\w+@\w+.\w+/.test(email2.value)){
+  }else if(!/\w+@\w+.\w+/.test(email2.value)){
     return
   }
 
