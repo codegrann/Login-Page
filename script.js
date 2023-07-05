@@ -2,11 +2,12 @@ let div=document.getElementById("div");
 let reset=document.getElementById("reset");
 let email1=document.getElementById("email1");
 let email2=document.getElementById("email2");
-let password=document.querySelector('#password');
-let togglePassword=document.querySelector('#togglePassword');
+let password=document.querySelector("#password");
+let togglePassword=document.querySelector("#togglePassword");
 
 
 reset.addEventListener("click", submit);
+togglePassword.addEventListener("click", toggle);
 
 
 
